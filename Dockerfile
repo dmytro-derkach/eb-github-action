@@ -3,11 +3,11 @@ FROM debian:latest
 WORKDIR /app
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/dmytro-derkach/eb-githab-action"
-LABEL homepage="https://github.com/dmytro-derkach/eb-githab-action"
-LABEL maintainer="Serverless, Inc. <hello@serverless.com> (https://serverless.com)"
+LABEL repository="https://github.com/dmytro-derkach/eb-github-action"
+LABEL homepage="https://github.com/dmytro-derkach/eb-github-action"
+LABEL maintainer="Dmytro Derkach"
 
-LABEL "com.github.actions.name"="EB githab action"
+LABEL "com.github.actions.name"="EB github action"
 LABEL "com.github.actions.description"="Deploy eb app to aws"
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
